@@ -15,6 +15,16 @@ getgenv().GRNG_CRAFT_DICE = true
 getgenv().GRNG_USE_MEGA1 = false
 getgenv().GDAYCARE = true
 
+getgenv().GENCHANTS = {
+		"Criticals",
+		"Criticals",
+		"Strong Pets",
+		"Strong Pets",
+		"Strong Pets",
+		"Strong Pets",
+		"Criticals",
+	}
+
 getgenv().GLOOTBOXES = {
 	"Locked Hype Egg 3",
 	"Titanic Fantasy Present",
