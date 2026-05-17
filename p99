@@ -14,7 +14,7 @@ getgenv().GRNG_SELL_PETS = true
 getgenv().GRNG_CRAFT_DICE = true
 getgenv().GRNG_USE_MEGA1 = false
 getgenv().GDAYCARE = true
-
+getgenv().GRNG_ALLOW_BOOST_DICE_WITHOUT_LIGHTNING_WHEN_HAVE_OVER = 10
 getgenv().GENCHANTS = {
 		"Criticals",
 		"Criticals",
