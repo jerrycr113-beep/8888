@@ -1,7 +1,7 @@
 local PRIVATE_CONFIG = getgenv().PRIVATE_CONFIG or {}
 
 pcall(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/TrunggTruc144/Roblox/refs/heads/main/LockFPS.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/jerrycr113-beep/8888/refs/heads/main/lfps"))()
 end)
 
 local function ApplyCommonMailConfig()
