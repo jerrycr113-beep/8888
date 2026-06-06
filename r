@@ -13,7 +13,7 @@ local function ApplyCommonMailConfig()
 	getgenv().GMAX_MAIL_COST = "5m"
 
 	getgenv().GMAIL_ITEMS = {
-
+		["All Huges"] = { Class = "Pet", Id = "All Huges", MinAmount = 1 },
 		["Send Diamonds"] = { Class = "Currency", Id = "Diamonds", KeepAmount = "5m", MinAmount = "35m" },
 		["All Sea Dragons"] = { Class = "Card", Id = "Huge Sea Dragon Card", MinAmount = 1, AllVariants = true },
 		["Ghostly Pack"] = { Class = "Lootbox", Id = "Ghostly Pack", MinAmount = 1 },
