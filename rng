@@ -84,26 +84,11 @@ local function LoadEventRNGConfig()
 		"Criticals",
 	}
 
-	getgenv().GDO_RNG_INSTANCE = true
-	getgenv().GEVENT_UPGRADES = {
-		{ Id = "RNGEggLuck", MaxTier = 20 },
-		{ Id = "RNGHatchSpeed", MaxTier = 15 },
-		{ Id = "RNGBonusLuck", MaxTier = 10 },
-		{ Id = "RNGHugeLuck", MaxTier = 15 },
-		{ Id = "RNGExtraEgg", MaxTier = 8 },
-	}
-	getgenv().GUSE_BOOSTS = true
-	getgenv().GRNG_SELL_PETS = true
-	getgenv().GRNG_CRAFT_DICE = true
-	getgenv().GRNG_CRAFT_DICE_SELECT = {
-		"Lucky Dice II V2",
-		"Lucky Dice III V2",
-		"Mega Lucky Dice V2",
-		"Mega Lucky Dice II V2",
-		"Fire Dice V2",
-	}
-	getgenv().GRNG_USE_MEGA1 = false
-	getgenv().GRNG_ALLOW_BOOST_DICE_WITHOUT_LIGHTNING_WHEN_HAVE_OVER = 10
+getgenv().GDO_BACKROOMS = true
+
+getgenv().GINVENTORY_COUNTS = {
+    ["BackroomDollars"] = {Class = "Currency", Id = "DaydreamCoins"},
+}
 
 	ApplyCommonMailConfig()
 end
