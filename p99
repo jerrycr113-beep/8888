@@ -100,6 +100,16 @@ getgenv().GBACKROOMS_OPEN_CHESTS = true
 getgenv().GALLOW_HOPPING = true
 getgenv().GBACKROOMS_MIN_MULTIPLIER = 75
 
+
+	getgenv().GCONSUME_CHARMS = true
+	getgenv().GCOMBINE_KEYS = true
+	getgenv().GUSE_SPINNY_WHEEL = true
+	getgenv().GHOLD_GIFTS = false
+	getgenv().GHOLD_BUNDLES = false
+	getgenv().GCONSUME_SEED_BAGS = true
+	getgenv().GOPEN_ITEMS_IN_BULK = true
+	getgenv().GUSE_ULTIMATES = { "UFO", "Tsunami", "Tornado", "Lightning Storm", "Ground Pound" }
+
 	ApplyCommonMailConfig()
 end
 
