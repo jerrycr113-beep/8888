@@ -1,47 +1,102 @@
-pcall(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/TrunggTruc144/Roblox/refs/heads/main/LockFPS.lua"))()
-end)
+getgenv().GAG2Config = {
+    AUTO_UPDATE_RESTART = true,
 
-getgenv().Configuration = {
-    ["Webhook"] = {
-        ["UserID"]    = "",
-        ["WebhookURL"] = "https://discord.com/api/webhooks/1245486691553247293/HljlWDWOzLgz0LLUO4-Ar8_4bxpi07LTbMW9Fq7rnxlBENeQWpnG7F7nxEDu_8KfxakF",
-        ['Ping Global'] = false, -- wont ping but it will show discord
+    BUY_PET = {  -- ["Pet Name"] = Amount
+        ["Monkey"] = 99, 
+        ["Bee"] = 99, 
+        ["Black Dragon"] = 99, 
+        ["Golden Dragonfly"] = 99, 
+        ["Unicorn"] = 99, 
+        ["Raccoon"] = 99, 
+        ["Ice Serpent"] = 99,
 
-        --[[ Misc Notifiers ]]
-        ['Weather'] = "",
-        ['Dice Craft'] = "",
-        ['Dice Use'] = "",
-		['Upgrade'] = "",
+        ["Robin"] = 5,
+        ["Deer"] = 5,
     },
-    ['Mail'] = {
-        ['Usernames']      = {"md44gfbjxq"},
-        ['Mail All Huges'] = true,
-        ['Items'] = {},
+
+    EQUIP_PET = {  -- {"Pet Name", Amount to Equip, Priority}
+        {"Unicorn", 5, 1}, 
+        {"Golden Dragonfly", 10, 2},
+        {"Robin", 5, 3},
+        {"Deer", 5, 4},
     },
-    
-    ["Dice On Bonus Only"] = true,
-    ['Fire On Weather Only'] = true,
 
-    ["Craft Dice"]  = "Mega Lucky Dice II V2",
-    ["Use Dice"]    = true,
-    ['Upgrades']    = true,
-    ['Sell Pets']   = 
-	{
-		["Sand Turtle"] = true,
-        ["Wisp Owl"] = true,
-        ["Sapphire Dragon"] = true,
-        ["Bubble Bunny"] = true,
-        ["Starry Eye Wolf"] = true,
-        ["Tiedye Elephant"] = true,
-        ["Chameleon"] = true,
-        ["Honey Bee"] = true,
-        ["Blossom Fox"] = true,
-        ["Sprout Stag"] = true,
-	},
+    PLANT_SEED = {  -- ["Seed Name"] = Amount
+        ["Carrot"] = 10, 
+        ["Strawberry"] = 4,
+        ["Blueberry"] = 4,
+        ["Tulip"] = 4,
+        ["Tomato"] = 4,
+        ["Apple"] = 4,
+        ["Bamboo"] = 50,
+        ["Corn"] = 4,
+        ["Cactus"] = 4,
+        ["Pineapple"] = 4,
+        ["Mushroom"] = 50,
+        ["Green Bean"] = 50,
+        ["Banana"] = 50,
+        ["Grape"] = 50,
+        ["Coconut"] = 50,
+        ["Mango"] = 50,
+        ["Dragon Fruit"] = 50,
+        ["Acorn"] = 50,
+        ["Cherry"] = 50,
+        ["Sunflower"] = 50,
+        ["Venus Fly Trap"] = 50,
+        ["Pomegranate"] = 50,
+        ["Poison Apple"] = 50,
+        ["Moon Bloom"] = 50,
+        ["Dragon's Breath"] = 50,
+    },
 
-    ['Potions']  = {},
-    ['Enchants'] = { "Criticals", "Criticals", "Criticals", "Criticals", "Criticals" },
-    ['Fruits']   = {},
+    BUY_SEED = {  -- ["Seed Name"] = Amount
+        ["Carrot"] = 999, 
+        ["Strawberry"] = 999,
+        ["Blueberry"] = 999,
+        ["Tulip"] = 999,
+        ["Tomato"] = 999,
+        ["Apple"] = 999,
+        ["Bamboo"] = 999,
+        ["Corn"] = 999,
+        ["Cactus"] = 999,
+        ["Pineapple"] = 999,
+        ["Mushroom"] = 999,
+        ["Green Bean"] = 999,
+        ["Banana"] = 999,
+        ["Grape"] = 999,
+        ["Coconut"] = 999,
+        ["Mango"] = 999,
+        ["Dragon Fruit"] = 999,
+        ["Acorn"] = 999,
+        ["Cherry"] = 999,
+        ["Sunflower"] = 999,
+        ["Venus Fly Trap"] = 999,
+        ["Pomegranate"] = 999,
+        ["Poison Apple"] = 999,
+        ["Moon Bloom"] = 999,
+        ["Dragon's Breath"] = 999,
+    },
+
+    SELL_ALL_DELAY = 20,
+    EXPAND_PLOT = false,
+    BUY_GEAR = {},  -- ["Gear Name"] = Amount
+    BUY_CRATE = {},  -- ["Crate Name"] = Amount
+    USE_SPRINKLER = {},  -- "Sprinkler Name"
+
+    -- Auto Mail
+    AUTO_MAIL_USERNAME = {},  -- Username (Randomized)
+    AUTO_MAIL_ITEM_NAME = {},  -- ["Item Name"] = Amount
+    COLLECT_MAIL = true,
+
+    -- Discord
+    WEBHOOK_PET_NAME = {},
+    WEBHOOK_PET_RARITY = { "Mythic", "Super", "Secret" },
+    WEBHOOK_URL = "",
+    DISCORD_ID = "",
+    WEBHOOK_NOTE = "",  -- Private Webhook
+    SHOW_PUBLIC_DISCORD_ID = true,
+    SHOW_WEBHOOK_USERNAME = true,  -- Private Webhook
+    SHOW_WEBHOOK_JOBID = true,  -- Private Webhook
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/8e09351860576c626242d87609b01594.lua"))()
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/c9ea3aa6c782de82dee4bcf6b9a9d03e.lua"))()
