@@ -84,20 +84,21 @@ local function LoadEventRNGConfig()
 	getgenv().GZONE_TO = 1
 	getgenv().GGFX_MODE = 1
 	getgenv().GENCHANTS = {
+		"Huge Hunter",
+		"Shiny Hunter",
+		"Criticals",
+		"Strong Pets",
+		"Tap Power",
 		"Criticals",
 		"Criticals",
-		"Strong Pets",
-		"Strong Pets",
-		"Strong Pets",
 		"Strong Pets",
 		"Criticals",
 	}
 
 getgenv().GDO_BACKROOMS = true
-
-getgenv().GINVENTORY_COUNTS = {
-    ["BackroomDollars"] = {Class = "Currency", Id = "DaydreamCoins"},
-}
+getgenv().GBACKROOMS_OPEN_CHESTS = true
+getgenv().GALLOW_HOPPING = true
+getgenv().GBACKROOMS_MIN_MULTIPLIER = 75
 
 	ApplyCommonMailConfig()
 end
