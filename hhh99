@@ -1,3 +1,5 @@
+setfpscap(3)
+
 getgenv().UserConfig = {
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
