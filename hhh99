@@ -106,7 +106,7 @@ getgenv().UserConfig = {
     ["Mail To Username"] = {"md44gfbjxq"},
     ["Items To Mail"] = {
         ["Pet"] = {"Golden Dragonfly","Unicorn","Raccoon"},
-        ["Seed"] = {"Rainbow", "Gold", "Bamboo", "Mushroom"},
+        ["Seed"] = {"Rainbow", "Gold", "Mushroom"},
     },
     ["Claim Mail"] = true,
 }
