@@ -1,4 +1,4 @@
-setfpscap(3)
+setfpscap(5)
 
 getgenv().UserConfig = {
     ["Auto Buy Seed"] = true,
