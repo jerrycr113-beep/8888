@@ -1,6 +1,7 @@
 setfpscap(5)
 
 getgenv().UserConfig = {
+    ["FPS Cap"] = 5,
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
     ["Limit Plant Seed"] = { -- ["Plant Name"] = Amount
@@ -57,7 +58,9 @@ getgenv().UserConfig = {
         ["Moon Bloom"] = 99,
         ["Dragon's Breath"] = 99,
     },
-    ["Favorite"] = {},
+    ["Favorite"] = {
+        ["Horned Melon"] = {"Rainbow", "Gold"},
+    },
     ["Buy Pets"] = { -- ["Pet Name"] = Amount
         ["Monkey"] = 99,
         ["Bee"] = 99,
@@ -80,7 +83,7 @@ getgenv().UserConfig = {
     ["Auto Collect Seed Packs"] = true,
     ["Gears"] = {
         ["Buy Gear"] = { -- [Gear Name] = Amount
-            -- "Common Watering Can",
+            "Common Watering Can",
             "Common Sprinkler",
             "Uncommon Sprinkler",
             "Rare Sprinkler",
@@ -89,7 +92,7 @@ getgenv().UserConfig = {
             "Super Watering Can",
         },
         ["Gears To Use"] = {
-            -- "Common Watering Can",
+            "Common Watering Can",
             "Common Sprinkler",
             "Uncommon Sprinkler",
             "Rare Sprinkler",
@@ -109,5 +112,8 @@ getgenv().UserConfig = {
         ["Seed"] = {"Rainbow", "Gold", "Mushroom"},
     },
     ["Claim Mail"] = true,
+    ["Auto Plant"] = true,
+    ["Limit Auto Plant"] = 200,
+    ["Blacklist Seed"] = {"Bamboo", "Rainbow", "Gold","Mushroom"},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
