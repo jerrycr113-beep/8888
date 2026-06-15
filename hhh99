@@ -10,7 +10,7 @@ getgenv().UserConfig = {
         ["Tulip"] = 10,
         ["Tomato"] = 10,
         ["Apple"] = 10,
-        ["Bamboo"] = 50,
+        --["Bamboo"] = 50,
         ["Corn"] = 10,
         ["Cactus"] = 10,
         ["Pineangle"] = 10,
@@ -106,7 +106,7 @@ getgenv().UserConfig = {
     ["Mail To Username"] = {"md44gfbjxq"},
     ["Items To Mail"] = {
         ["Pet"] = {"Golden Dragonfly","Unicorn","Raccoon"},
-        ["Seed"] = {"Rainbow", "Gold", "Mushroom"},
+        ["Seed"] = {"Rainbow", "Gold", "Bamboo", "Mushroom"},
     },
     ["Claim Mail"] = true,
 }
