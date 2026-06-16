@@ -25,11 +25,11 @@ getgenv().UserConfig = {
         ["Acorn"] = 20,
         ["Cherry"] = 20,
         ["Sunflower"] = 20,
-        ["Venus Fly Trap"] = 20,
-        ["Pomegranate"] = 20,
-        ["Poison Apple"] = 20,
-        ["Moon Bloom"] = 20,
-        ["Dragon's Breath"] = 20,
+        --["Venus Fly Trap"] = 20,
+        --["Pomegranate"] = 20,
+        --["Poison Apple"] = 20,
+        --["Moon Bloom"] = 20,
+        --["Dragon's Breath"] = 20,
     },
     ["Limit Buy Seed"] = { -- ["Seed Name"] = Amount
         ["Carrot"] = 99, 
@@ -122,6 +122,6 @@ getgenv().UserConfig = {
     ["Claim Mail"] = true,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 200,
-    ["Blacklist Seed"] = {"Rainbow", "Gold"},
+    ["Blacklist Seed"] = {"Rainbow", "Gold","Mushroom"},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
