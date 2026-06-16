@@ -108,12 +108,22 @@ getgenv().UserConfig = {
     ["Discord ID"] = "",
     ["Mail To Username"] = {"md44gfbjxq"},
     ["Items To Mail"] = {
-        ["Pet"] = {"Golden Dragonfly","Unicorn","Raccoon"},
-        ["Seed"] = {"Rainbow", "Gold", "Mushroom"},
+        ["Pet"] = {
+            ["Golden Dragonfly"] = 1,
+            ["Unicorn"] = 1,
+            ["Raccoon"] = 1,
+            ["Monkey"] = 5,
+            ["Bee"] = 5,
+        },
+        ["Seed"] = {
+            ["Rainbow"] = 2,
+            ["Gold"] = 20,
+            ["Mushroom"] = 40,
+        },
     },
     ["Claim Mail"] = true,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 200,
-    ["Blacklist Seed"] = {"Rainbow", "Gold","Mushroom"},
+    ["Blacklist Seed"] = {"Rainbow", "Gold"},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
