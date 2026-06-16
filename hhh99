@@ -70,7 +70,7 @@ getgenv().UserConfig = {
         ["Raccoon"] = 99,
         ["Ice Serpent"] = 99,
         ["Robin"] = 5,
-        ["Deer"] = 5,
+        ["Deer"] = 6,
     },
     ["Equip Pets"] = { -- {"Pet Name", Amount To Equip, Priority}
         {"Unicorn", 5, 1},
