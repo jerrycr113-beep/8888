@@ -64,11 +64,11 @@ getgenv().UserConfig = {
     ["Buy Pets"] = { -- ["Pet Name"] = Amount
         ["Monkey"] = 99,
         ["Bee"] = 99,
-        ["BlackDragon"] = 99,
-        ["GoldenDragonfly"] = 99,
+        ["Black Dragon"] = 99,
+        ["Golden Dragonfly"] = 99,
         ["Unicorn"] = 99,
         ["Raccoon"] = 99,
-        ["IceSerpent"] = 99,
+        ["Ice Serpent"] = 99,
         ["Robin"] = 5,
         ["Deer"] = 6,
     },
@@ -109,7 +109,7 @@ getgenv().UserConfig = {
     ["Mail To Username"] = {"md44gfbjxq"},
     ["Items To Mail"] = {
         ["Pet"] = {
-            ["Golden Dragonfly"] = 1,
+            ["GoldenDragonfly"] = 1,
             ["Unicorn"] = 1,
             ["Raccoon"] = 1,
             ["Monkey"] = 5,
