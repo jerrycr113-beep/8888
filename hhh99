@@ -106,6 +106,7 @@ getgenv().UserConfig = {
     ["Webhook URL"] = "https://discord.com/api/webhooks/1245486691553247293/HljlWDWOzLgz0LLUO4-Ar8_4bxpi07LTbMW9Fq7rnxlBENeQWpnG7F7nxEDu_8KfxakF",
     ["Webhook Pet Name"] = {},
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
+    ["Webhook Seed Name"] = {"Rainbow"},
     ["Webhook Note"] = "gag2",
     ["Discord ID"] = "",
     ["Mail To Username"] = {"md44gfbjxq"},
