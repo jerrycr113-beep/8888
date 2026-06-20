@@ -1,4 +1,3 @@
-setfpscap(5)
 
 getgenv().UserConfig = {
     ["FPS Cap"] = 5,
@@ -121,7 +120,7 @@ getgenv().UserConfig = {
             ["Bunny"] = {Huge = 9, Rainbow = 9, To = "md44gfbjxq"},
             ["Owl"] = {Huge = 9, Rainbow = 9, To = "md44gfbjxq"},
             ["Bee"] = {Big = 9, Huge = 9, Rainbow = 9, To = "md44gfbjxq"},
-            ["Bear"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "md44gfbjxq"},
+            ["Bear"] = 1,
             ["Monkey"] = {Big = 9, Huge = 9, Rainbow = 9, To = "md44gfbjxq"},
         },
         ["Seed"] = {
