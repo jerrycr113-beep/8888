@@ -28,6 +28,7 @@ getgenv().UserConfig = {
         ["Venus Fly Trap"] = 20,
         ["Pomegranate"] = 20,
         ["Poison Apple"] = 20,
+        ["Venom Spitter"] = 50,
         --["Moon Bloom"] = 20,
         --["Dragon's Breath"] = 20,
     },
@@ -55,29 +56,30 @@ getgenv().UserConfig = {
         ["Venus Fly Trap"] = 99,
         ["Pomegranate"] = 99,
         ["Poison Apple"] = 99,
+        ["Venom Spitter"] = 9999,
         ["Moon Bloom"] = 9999,
         ["Dragon's Breath"] = 9999,
     },
     ["Favorite"] = {
-        ["Horned Melon"] = {"Rainbow", "Gold"},
+        -- ["Horned Melon"] = {"Rainbow", "Gold"},
     },
     ["Buy Pets"] = {
         ["Frog"] = {Huge = 99, Rainbow = 99}, -- mua 99 Huge, 99 Rainbow (không mua pet Normal, Big)
-        ["Bunny"] = {Huge = 99, Rainbow = 99},
+        ["Bunny"] = {Normal = 6, Huge = 99, Rainbow = 99},
         ["Owl"] = {Huge = 99, Rainbow = 99},
         ["Deer"] = {Huge = 99, Rainbow = 99},
         ["Robin"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Monkey"] = {Big = 99, Huge = 99, Rainbow = 99}, -- mua 999 tất cả loại
+        ["Bear"] = 999,
         ["Golden Dragonfly"] = 999,
         ["Unicorn"] = 999,
         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
     },
     ["Equip Pets"] = { -- {"Pet Name", Amount To Equip, Priority}
-        {"Unicorn", 5, 1},
-        {"Golden Dragonfly", 10, 2},
-        {"Deer", 6, 3},
+        {"Bunny", 4, 1},
+        {"Deer", 6, 2},
     },
     ["Expand Plot"] = true,
     ["Plot Expansions"] = 3, -- Max = 5
@@ -119,6 +121,7 @@ getgenv().UserConfig = {
             ["Bunny"] = {Huge = 9, Rainbow = 9, To = "md44gfbjxq"},
             ["Owl"] = {Huge = 9, Rainbow = 9, To = "md44gfbjxq"},
             ["Bee"] = {Big = 9, Huge = 9, Rainbow = 9, To = "md44gfbjxq"},
+            ["Bear"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "md44gfbjxq"},
             ["Monkey"] = {Big = 9, Huge = 9, Rainbow = 9, To = "md44gfbjxq"},
         },
         ["Seed"] = {
