@@ -76,9 +76,9 @@ getgenv().UserConfig = {
         ["Black Dragon"] = 999,
         ["Ice Serpent"] = 999,
     },
-    ["Equip Pets"] = { -- {"Pet Name", Amount To Equip, Priority}
-        {"Bunny", 4, 1},
-        {"Deer", 6, 2},
+    ["Equip Pets"] = {
+        {"Deer", 3, 1},
+        {"Robin", 3, 2},
     },
     ["Expand Plot"] = true,
     ["Plot Expansions"] = 3, -- Max = 5
