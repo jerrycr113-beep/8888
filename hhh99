@@ -124,9 +124,9 @@ getgenv().UserConfig = {
             ["Monkey"] = {Big = 9, Huge = 9, Rainbow = 9, To = "mushroom15gold"},
         },
         ["Seed"] = {
-            ["Rainbow"] = 2,
-            ["Gold"] = 20,
-            ["Venus Fly Trap"] = 1,
+            ["Rainbow"] = 1,
+            ["Gold"] = 10,
+            ["Venus Fly Trap"] = 2,
             ["Pomegranate"] = 1,
             ["Venom Spitter"] = 1,
             ["Moon Bloom"] = 1,
