@@ -3,6 +3,8 @@ getgenv().UserConfig = {
     ["FPS Cap"] = 5,
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
+	["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Sunflower", "Cherry", "Acorn", "Dragon Fruit", "Mango", "Coconut", "Grape", "Banana"},
+	["Shovel Plant Once"] = {"Corn", "Pineapple", "Cactus"},
     ["Limit Plant Seed"] = {
         ["Carrot"] = 5, 
         ["Strawberry"] = 5,
@@ -59,8 +61,6 @@ getgenv().UserConfig = {
     ["Favorite"] = {
         -- ["Horned Melon"] = {"Rainbow", "Gold"},
     },
-	["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Sunflower", "Cherry", "Acorn", "Dragon Fruit", "Mango", "Coconut", "Grape", "Banana"},
-	["Shovel Plant Once"] = {"Corn", "Pineapple", "Cactus"},
     ["Buy Pets"] = {
         ["Frog"] = {Huge = 99, Rainbow = 99}, -- mua 99 Huge, 99 Rainbow (không mua pet Normal, Big)
         ["Bunny"] = {Normal = 6, Huge = 99, Rainbow = 99},
