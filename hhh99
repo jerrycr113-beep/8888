@@ -24,10 +24,9 @@ getgenv().UserConfig = {
         ["Acorn"] = 50,
         ["Cherry"] = 50,
         ["Sunflower"] = 50,
-        ["Venus Fly Trap"] = 50,
-        ["Pomegranate"] = 50,
+        ["Venus Fly Trap"] = 20,
+        ["Pomegranate"] = 20,
         ["Poison Apple"] = 50,
-		["Venom Spitter"] = 50,
     },
     ["Limit Buy Seed"] = { -- ["Seed Name"] = Amount
         ["Carrot"] = 10, 
