@@ -76,9 +76,9 @@ getgenv().UserConfig = {
         ["Ice Serpent"] = 999,
     },
     ["Equip Pets"] = {
-        {"Deer", 3, 1},
-        {"Robin", 3, 2},
-		{"Bunny", 6, 3},
+        {"Deer", 5, 1},
+		{"Bunny", 6, 2},
+		{"Robin", 3, 3},
     },
     ["Expand Plot"] = true,
     ["Plot Expansions"] = 3, -- Max = 5
