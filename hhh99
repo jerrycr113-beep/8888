@@ -49,8 +49,8 @@ getgenv().UserConfig = {
         ["Acorn"] = 99,
         ["Cherry"] = 99,
         ["Sunflower"] = 99,
-        ["Venus Fly Trap"] = 99,
-        ["Pomegranate"] = 99,
+        ["Venus Fly Trap"] = 20,
+        ["Pomegranate"] = 999,
         ["Poison Apple"] = 999,
         ["Venom Spitter"] = 9999,
         ["Moon Bloom"] = 9999,
@@ -58,6 +58,9 @@ getgenv().UserConfig = {
     },
     ["Favorite"] = {
         -- ["Horned Melon"] = {"Rainbow", "Gold"},
+    },
+	["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap"},
+	["Shovel Plant Once"] = {},
     },
     ["Buy Pets"] = {
         ["Frog"] = {Huge = 99, Rainbow = 99}, -- mua 99 Huge, 99 Rainbow (không mua pet Normal, Big)
