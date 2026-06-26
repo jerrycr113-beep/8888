@@ -63,9 +63,9 @@ getgenv().UserConfig = {
     },
     ["Buy Pets"] = {
         ["Frog"] = {Huge = 99, Rainbow = 99}, -- mua 99 Huge, 99 Rainbow (không mua pet Normal, Big)
-        ["Bunny"] = {Normal = 6, Huge = 99, Rainbow = 99},
+        ["Bunny"] = {Normal = 6, Big = 99, Huge = 99, Rainbow = 99},
         ["Owl"] = {Huge = 99, Rainbow = 99},
-        ["Deer"] = {Normal = 6, Huge = 99, Rainbow = 99},
+        ["Deer"] = {Normal = 6, Big = 99, Huge = 99, Rainbow = 99},
         ["Robin"] = {Normal = 6, Huge = 99, Rainbow = 99},
         ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99},
         ["Monkey"] = {Big = 99, Huge = 99, Rainbow = 99}, -- mua 999 tất cả loại
@@ -124,8 +124,8 @@ getgenv().UserConfig = {
             ["Monkey"] = {Big = 9, Huge = 9, Rainbow = 9, To = "mushroom15gold"},
         },
         ["Seed"] = {
-            ["Rainbow"] = 1,
-            ["Gold"] = 10,
+            ["Rainbow"] = 2,
+            ["Gold"] = 20,
             ["Venom Spitter"] = 1,
             ["Moon Bloom"] = 1,
             ["Dragon's Breath"] = 1, 
