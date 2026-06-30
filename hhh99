@@ -134,7 +134,7 @@ getgenv().UserConfig = {
         },
     },
     ["Claim Mail"] = true,
-    ["Auto Plant"] = true,
+    ["Auto Plant"] = false,
     ["Limit Auto Plant"] = 800,
     ["Blacklist Seed"] = {"Rainbow", "Gold","Venom Spitter","Moon Bloom","Dragon's Breath","Hypno Bloom"},
 }
