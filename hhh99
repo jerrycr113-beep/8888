@@ -122,14 +122,14 @@ getgenv().UserConfig = {
     ["Items To Mail"] = {
         ["Pet"] = {
             ["GoldenDragonfly"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "mushroom15gold"},
-            ["Unicorn"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "mushroom15gold"},
+            --["Unicorn"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "mushroom15gold"},
             ["Raccoon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "mushroom15gold"},
             ["Ice Serpent"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "mushroom15gold"},
-            ["Frog"] = {Huge = 1, Rainbow = 1, To = "mushroom15gold"},
-            ["Bunny"] = {Huge = 1, Rainbow = 1, To = "mushroom15gold"},
-            ["Owl"] = {Huge = 1, Rainbow = 1, To = "mushroom15gold"},
-            ["Bee"] = {Big = 1, Huge = 1, Rainbow = 1, To = "mushroom15gold"},
-            ["Monkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = "mushroom15gold"},
+            --["Frog"] = {Huge = 1, Rainbow = 1, To = "mushroom15gold"},
+            --["Bunny"] = {Huge = 1, Rainbow = 1, To = "mushroom15gold"},
+            --["Owl"] = {Huge = 1, Rainbow = 1, To = "mushroom15gold"},
+            --["Bee"] = {Big = 1, Huge = 1, Rainbow = 1, To = "mushroom15gold"},
+            --["Monkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = "mushroom15gold"},
         },
         ["Seed"] = {
 			["Carrot"] = 200,
