@@ -132,7 +132,7 @@ getgenv().UserConfig = {
             --["Monkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = "mushroom15gold"},
         },
         ["Seed"] = {
-			["Carrot"] = 200,
+			["Carrot"] = {Amount = 200, To = "Blade1NStarf192495"},
             ["Rainbow"] = 1,
             --["Gold"] = 10,
 			["Mega"] = 1,
