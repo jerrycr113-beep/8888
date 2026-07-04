@@ -1,4 +1,3 @@
-script_key = keys[rng:NextInteger(1, #keys)]
 getgenv().UserConfig = {
 	["FPS Cap"] = 10,
 	["Auto Double Or Nothing"] = false, -- muốn chơi tài xỉu thì đổi thành true
