@@ -1,137 +1,159 @@
-local PRIVATE_CONFIG = getgenv().PRIVATE_CONFIG or {}
+script_key = "oTALnmFjjSIMCVuwrMGmmyGerIskdYJT"
+getgenv().GAG2 = {
+	Optimization = true,
+	Debug = true,
+	Fps = 10,
+	AutoBuySeed = true,
+	["seed dont buy"] = {
+		"Strawberry",
+		"Blueberry",
+		"Tulip",
+		"Tomato",
+		"Apple",
+	},
+	BuyGearShop = {
+		"Common Sprinkler",
+		"Uncommon Sprinkler",
+		"Common Watering Can",
+		"Super Sprinkler",
+		"Super Watering Can",
+	},
+	BuyGearMinSheckles = 500000,
+	PlantSeeds = {
+		["Carrot"] = 0,
+		["Gold"] = 10000,
+		["Rainbow"] = 10000,
+		["Strawberry"] = 0,
+		["Blueberry"] = 0,
+		["Tomato"] = 0,
+		["Apple"] = 0,
+		["Bamboo"] = 300,
+		["Corn"] = 200,
+		["Cactus"] = 200,
+		["Pineapple"] = 200,
+		["Mushroom"] = 300,
+		["Green Bean"] = 200,
+		["Banana"] = 200,
+		["Grape"] = 200,
+		["Coconut"] = 200,
+		["Mango"] = 200,
+		["Rocket Pop"] = 300,
+		["Dragon Fruit"] = 200,
+		["Acorn"] = 200,
+		["Cherry"] = 200,
+		["Sunflower"] = 200,
+		["Fire Fern"] = 200,
+		["Venus Fly Trap"] = 200,
+		["Pomegranate"] = 200,
+		["Poison Apple"] = 200,
+		["Venom Spitter"] = 200,
+		["Briar Rose"] = 200,
+		["Romanesco"] = 200,
+		["Ghost Pepper"] = 200,
+		["Moon Bloom"] = 200,
+		["Hypno Bloom"] = 200,
+		["Dragon's Breath"] = 200,
+	},
+	DestroyPlants = {
+		"Strawberry",
+		"Blueberry",
+		"Tomato",
+		"Apple",
+	},
 
-pcall(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/jerrycr113-beep/8888/refs/heads/main/lfps"))()
-end)
-
-local function ApplyCommonMailConfig()
-	getgenv().GWEBHOOK_USERID = PRIVATE_CONFIG.WEBHOOK_USERID or ""
-	getgenv().GWEBHOOK_LINK = PRIVATE_CONFIG.WEBHOOK_LINK or ""
-
-	getgenv().GHUGE_COUNT = 0
-	getgenv().GMAIL_RECEIVERS = PRIVATE_CONFIG.MAIL_RECEIVERS or {}
-	getgenv().GMAX_MAIL_COST = "5m"
-
-	getgenv().GMAIL_ITEMS = {
-		["All Huges"] = { Class = "Pet", Id = "All Huges", MinAmount = 1 },
-		["Send Diamonds"] = { Class = "Currency", Id = "Diamonds", KeepAmount = "5m", MinAmount = "35m" },
-		["All Sea Dragons"] = { Class = "Card", Id = "Huge Sea Dragon Card", MinAmount = 1, AllVariants = true },
-		["Ghostly Pack"] = { Class = "Lootbox", Id = "Ghostly Pack", MinAmount = 1 },
-		["Time Trial Gift 2"] = { Class = "Lootbox", Id = "Time Trial Gift 2", MinAmount = 18 },
-
-		["Hype Egg 3"] = { Class = "Lootbox", Id = "Hype Egg 3", MinAmount = 1 },
-		["Hype Egg 2"] = { Class = "Lootbox", Id = "Hype Egg 2", MinAmount = 1 },
-		["Hype Egg"] = { Class = "Lootbox", Id = "Hype Egg", MinAmount = 1 },
-
-		["Secret 1"] = { Class = "Pet", Id = "Rainbow Swirl", MinAmount = 1 },
-		["Secret 2"] = { Class = "Pet", Id = "Banana", MinAmount = 1 },
-		["Secret 3"] = { Class = "Pet", Id = "Coin", MinAmount = 1 },
-		["Secret 4"] = { Class = "Pet", Id = "Yellow Lucky Block", MinAmount = 1 },
-		["Secret 5"] = { Class = "Pet", Id = "Crown", MinAmount = 1 },
-		["Secret 6"] = { Class = "Pet", Id = "Heart", MinAmount = 1 },
-		["Secret 7"] = { Class = "Pet", Id = "Lucky Clover", MinAmount = 1 },
-		["Secret 8"] = { Class = "Pet", Id = "Mystery", MinAmount = 1 },
-
-		["Exclusive Egg 57"] = { Class = "Egg", Id = "Exclusive Egg 57", MinAmount = 1 },
-		["Exclusive Egg 58"] = { Class = "Egg", Id = "Exclusive Egg 58", MinAmount = 1 },
-		["Exclusive Egg 59"] = { Class = "Egg", Id = "Exclusive Egg 59", MinAmount = 1 },
-		["Exclusive Egg 60"] = { Class = "Egg", Id = "Exclusive Egg 60", MinAmount = 1 },
-		["Exclusive Egg 61"] = { Class = "Egg", Id = "Exclusive Egg 61", MinAmount = 1 },
-		["Exclusive Egg 62"] = { Class = "Egg", Id = "Exclusive Egg 62", MinAmount = 1 },
-
-		["Mega Potion Chest"] = { Class = "Lootbox", Id = "Mega Potion Chest", MinAmount = 1 },
-		["Mega Enchant Chest"] = { Class = "Lootbox", Id = "Mega Enchant Chest", MinAmount = 1 },
-		["Mega Loot Chest"] = { Class = "Lootbox", Id = "Mega Loot Chest", MinAmount = 1 },
-		["Mega Charm Chest"] = { Class = "Lootbox", Id = "Mega Charm Chest", MinAmount = 1 },
-
-		["Huge Machine Egg 6"] = { Class = "Egg", Id = "Huge Machine Egg 6", MinAmount = 1 },
-		["Huge Machine Egg 5"] = { Class = "Egg", Id = "Huge Machine Egg 5", MinAmount = 1 },
-		["Huge Machine Egg 4"] = { Class = "Egg", Id = "Huge Machine Egg 4", MinAmount = 1 },
-		["Huge Machine Egg 3"] = { Class = "Egg", Id = "Huge Machine Egg 3", MinAmount = 1 },
-		["Huge Machine Egg 2"] = { Class = "Egg", Id = "Huge Machine Egg 2", MinAmount = 1 },
-		["Huge Machine Egg 1"] = { Class = "Egg", Id = "Huge Machine Egg 1", MinAmount = 1 },
-
-		["MVP Key Upper Half"] = { Class = "Misc", Id = "MVP Key Upper Half", MinAmount = 50 },
-		["MVP Key Lower Half"] = { Class = "Misc", Id = "MVP Key Lower Half", MinAmount = 500 },
-
-		["Royalty"] = { Class = "Charm", Id = "Royalty", MinAmount = 1 },
-		["Overload"] = { Class = "Charm", Id = "Overload", MinAmount = 1 },
-
-		["Secret Key"] = { Class = "Misc", Id = "Secret Key", MinAmount = 200 },
-		["Fantasy Key"] = { Class = "Misc", Id = "Fantasy Key", MinAmount = 100 },
-		["Void Key"] = { Class = "Misc", Id = "Void Key", MinAmount = 200 },
-		["Tech Key"] = { Class = "Misc", Id = "Tech Key", MinAmount = 400 },
-		["Crystal Key"] = { Class = "Misc", Id = "Crystal Key", MinAmount = 600 },
-		["Fantasy Spinny Wheel Ticket"] = { Class = "Misc", Id = "Fantasy Spinny Wheel Ticket", MinAmount = 50 },
-		["Magic Shard"] = { Class = "Misc", Id = "Magic Shard", MinAmount = 200 },
-		["Bucket O' Magic"] = { Class = "Misc", Id = "Bucket O' Magic", MinAmount = 200 },
-	}
-end
-
-local function LoadFarmConfig()
-	-- getgenv().GDO_TIME_TRIAL = true
-	-- getgenv().GTIME_TRIAL_MIN_TIME_TO_BOSS3 = 1
-	-- getgenv().GTIME_TRIAL_CHEST_TO_CLAIM = 3
-	-- getgenv().GTIME_TRIAL_HATCH_FIRST_SECONDS = 1
-	-- getgenv().GTIME_TRIAL_ENCHANTS =
-	-- 	{ "Explosive", "Criticals", "Criticals", "Tap Power", "Tap Power", "Strong Pets", "Criticals" }
-
-	getgenv().GLOOTBOXES = { "Locked Hype Egg 3", "Titanic Fantasy Present" }
-
-	-- getgenv().GRANK_FIRST = true
-	getgenv().GZONE_TO = 999
-	--getgenv().GFOCUS_RANK_TO = 11
-
-	getgenv().GPROGRESS_MODE = "Hybrid"
-	getgenv().GGFX_MODE = 1
-	getgenv().GCLEAR_FAVORITE_PETS = true
-
-	getgenv().GENCHANTS = {
-		"Huge Hunter",
-		"Criticals",
-		"Criticals",
-		"Tap Power",
-		"Strong Pets",
-		"Explosive",
-		"Lucky Eggs",
-	}
-
-	getgenv().GUSE_SPINNY_WHEEL = true
-	getgenv().GAUTO_UPGRADE_PETS = true
-	getgenv().GHATCH_BETTER_PETS = true
-	getgenv().GCOMBINE_KEYS = true
-	getgenv().GMASTERY_TO_MAX = "Economy"
-	getgenv().GCONSUME_CHARMS = true
-	getgenv().GDAYCARE = true
-
-	getgenv().GHATCH_SPEED_MS = 0
-	getgenv().GMAX_EGG_SLOTS = 89
-	getgenv().GMAX_EQUIP_SLOTS = 84
-
-	getgenv().GHOLD_GIFTS = false
-	getgenv().GHOLD_BUNDLES = false
-	getgenv().GCONSUME_SEED_BAGS = true
-	getgenv().GOPEN_ITEMS_IN_BULK = true
-	getgenv().GMAX_ZONE_UPGRADE_COST = 200000000
-
-	getgenv().GCOLLECT_FREE_ITEMS = true
-
-	getgenv().GUSE_SPRINKLERS = true
-	getgenv().GUSE_ULTIMATES = { "UFO", "Tsunami", "Tornado", "Lightning Storm", "Ground Pound" }
-	getgenv().GUSE_FLAGS = { "Fortune Flag", "Diamonds Flag", "Coins Flag" }
-	getgenv().GFRUITS = { "Watermelon", "Candycane", "Apple", "Rainbow", "Pineapple", "Orange", "Banana" }
-	getgenv().GPOTIONS =
-		{ "Coins", "Lucky", "The Cocktail", "Huge", "Treasure Hunter", "Walkspeed", "Diamonds", "Damage" }
-	getgenv().GPOTIONS_MAX_TIER = 99
-
-	getgenv().GKICK_ON_STAFF = false
-	getgenv().GCOMBINE_MACHINE_OUTPUT = "Titanic Fantasy Present"
-
-	ApplyCommonMailConfig()
-end
-
-task.wait(10)
-
-LoadFarmConfig()
-
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/34915da4ad87a5028e1fd64efbe3543f.lua"))()
+	BuyPets = {
+		["Bunny"] = 6,
+		["Unicorn"] = 6,
+		["Raccoon"] = 999,
+		["Bald Eagle"] = 999,
+	},
+	EquipPets = {
+		["Unicorn"] = { Priority = 1 },
+		["Bunny"] = { Priority = 2 },
+	},
+	SellPets = {
+		"Frog",
+		"Owl",
+		"Turtle",
+		"Bee",
+	},
+	UseWateringCans = { "Common Watering Can" },
+	UseSprinklers = {
+		"Common Sprinkler",
+		"Uncommon Sprinkler",
+		"Rare Sprinkler",
+		"Legendary Sprinkler",
+	},
+	CollectSeedPacks = true,
+	COLLECT_PLANT_IF_MUTATED = { "Mushroom", "Rocket Pop" },
+	SellFruitMultiplier = {
+		["Rocket Pop"] = 1,
+		["Bamboo"] = 1,
+		["Mushroom"] = 1,
+	},
+	BuyAuction = {},
+	SeedInventoryLimit = {
+		["Carrot"] = 9999999,
+		["Strawberry"] = 0,
+		["Blueberry"] = 0,
+		["Tulip"] = 0,
+		["Tomato"] = 0,
+		["Apple"] = 0,
+		["Bamboo"] = 300,
+		["Corn"] = 2,
+		["Cactus"] = 2,
+		["Pineapple"] = 2,
+		["Mushroom"] = 300,
+		["Green Bean"] = 2,
+		["Banana"] = 2,
+		["Grape"] = 2,
+		["Coconut"] = 2,
+		["Mango"] = 2,
+		["Rocket Pop"] = 300,
+		["Dragon Fruit"] = 2,
+		["Acorn"] = 2,
+		["Cherry"] = 2,
+		["Sunflower"] = 2,
+		["Fire Fern"] = 2,
+		["Venus Fly Trap"] = 10,
+		["Pomegranate"] = 10,
+		["Poison Apple"] = 10,
+		["Venom Spitter"] = 10,
+		["Briar Rose"] = 10,
+		["Romanesco"] = 10,
+		["Ghost Pepper"] = 10,
+		["Moon Bloom"] = 100,
+		["Hypno Bloom"] = 100,
+		["Dragon's Breath"] = 100,
+	},
+	GearInventoryLimit = {
+		["Common Sprinkler"] = 100,
+		["Uncommon Sprinkler"] = 100,
+		["Common Watering Can"] = 100,
+		["Rare Sprinkler"] = 100,
+		["Legendary Sprinkler"] = 100,
+	},
+	DestroyUntilMinPlants = 600,
+	LimitPlants = 700,
+	PlantOverLimit = { "Bamboo", "Mushroom", "Rocket Pop" },
+	ExpandLimit = 3,
+	MaxPetSlots = 6,
+	MailReceivers = { "BaconsNIonz95" },
+	MailSendItems = {
+		["Raccoon"] = { Amount = 1, To = { "mushroom15gold" } },
+		["Bald Eagle"] = { Amount = 1, To = { "mushroom15gold" } },
+		["Mega"] = "All",
+		["Moon Bloom"] = "All",
+		["Hypno Bloom"] = "All",
+		["Dragon's Breath"] = "All",
+		["Super Sprinkler"] = "All",
+		["Super Watering Can"] = "All",
+	},
+	ShowUserWebhook = true,
+	WebhookUrl = "https://discord.com/api/webhooks/1245486691553247293/HljlWDWOzLgz0LLUO4-Ar8_4bxpi07LTbMW9Fq7rnxlBENeQWpnG7F7nxEDu_8KfxakF",
+	DiscordId = "",
+	ServerSpread = true,
+	UUID = "",
+	RamKickLimit = 6000,
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/7f7baee1f0b7e01fe5ee8a3f5aabbfbf.lua"))()
