@@ -50,9 +50,9 @@ getgenv().UserConfig = {
 		["Pomegranate"] = 0,
 		["Poison Apple"] = 0,
 		["Venom Spitter"] = 0,
-		["Moon Bloom"] = 0,
-		["Hypno Bloom"] = 0,
-		["Dragon's Breath"] = 0,
+		["Moon Bloom"] = 9999,
+		["Hypno Bloom"] = 9999,
+		["Dragon's Breath"] = 9999,
 	},
 	["Favorite"] = {},
 	["Harvest Mutation Only"] = {
