@@ -21,7 +21,7 @@ getgenv().UserConfig = {
 		"Dragon Fruit",
 		"Fire Fern",
 	},
-	["Shovel Plant Once"] = {},
+	["Shovel Plant Once"] = { "Strawberry", "Blueberry", "Tomato", "Apple" },
 	["Limit Plant Seed"] = {
 		["Gold"] = 10000,
 		["Strawberry"] = 0,
