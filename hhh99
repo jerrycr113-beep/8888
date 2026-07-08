@@ -124,7 +124,7 @@ getgenv().UserConfig = {
 			["Bald Eagle"] = { All = 1, To = "mushroom15gold" },
         },
         ["Seed"] = {
-			["Carrot"] = {Amount = 300, To = "Blade1NStarf192495"},
+			["Carrot"] = {Amount = 500, To = "Blade1NStarf192495"},
             ["Rainbow"] = 2,
             --["Gold"] = 10,
 			["Mega"] = 2,
