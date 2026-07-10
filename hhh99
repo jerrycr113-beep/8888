@@ -151,11 +151,10 @@ getgenv().UserConfig = {
 			["Bald Eagle"] = { All = 1, To = "mushroom15gold" },
         },
         ["Seed"] = {
-			["Carrot"] = {Amount = 500, To = "Blade1NStarf192495"},
             ["Rainbow"] = 2,
             --["Gold"] = 10,
 			["Mega"] = 2,
-			["Venom Spitter"] = 2,
+			["Venom Spitter"] = 1,
             ["Moon Bloom"] = 1,
             ["Dragon's Breath"] = 1, 
 			["Hypno Bloom"] = 1,
