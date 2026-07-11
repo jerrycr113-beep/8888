@@ -137,7 +137,7 @@ getgenv().UserConfig = {
     ["Mail To Username"] = {"BaconsNIonz95", "mushroom15gold"},
     ["Items To Mail"] = {
         ["Pet"] = {
-            ["GoldenDragonfly"] = { All = 1, To = "mushroom15gold"},
+            --["GoldenDragonfly"] = { All = 1, To = "mushroom15gold"},
             ["Unicorn"] = {Big = 1, Huge = 1, Rainbow = 1, To = "BaconsNIonz95"},
             ["Raccoon"] = { All = 1, To = "mushroom15gold"},
             ["Ice Serpent"] = { All = 1, To = "mushroom15gold"},
