@@ -6,6 +6,8 @@ getgenv().UserConfig = {
 	["Auto Buy Seed"] = true,
 	["Auto Plant Seed"] = true,
 	["Blacklist Shovel"] = {
+		"Eclipse Bloom",
+		"Sun Bloom",
 		"Star Fruit",
 		"Dragon's Breath",
 		"Hypno Bloom",
