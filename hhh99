@@ -154,7 +154,7 @@ getgenv().UserConfig = {
     ["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can"},
     ["Webhook Note"] = "gag2",
     ["Discord ID"] = "",
-    ["Mail To Username"] = {"BaconsNIonz95", "mushroom15gold"},
+    ["Mail To Username"] = {"BaconsNIonz95", "mushroom15gold","harems341465","md44gfbjxq"},
     ["Items To Mail"] = {
         ["Pet"] = {
             --["GoldenDragonfly"] = { All = 1, To = "mushroom15gold"},
@@ -171,18 +171,18 @@ getgenv().UserConfig = {
 			["Bald Eagle"] = { All = 1, To = "mushroom15gold" },
         },
         ["Seed"] = {
-			["Mega"] = 1,
-			["Rainbow"] = 1,
+			["Mega"] = 2,
+			["Rainbow"] = 2,
 			["Eclipse Bloom"] = 1,
 			["Sun Bloom"] = 1,
 			["Star Fruit"] = 1,
 			["Dragon's Breath"] = 1,
 			["Hypno Bloom"] = 1,
 			["Moon Bloom"] = 1,
-			["Venus Fly Trap"] = 1,
-			["Venom Spitter"] = 1,
-			["Poison Apple"] = 1,
-			["Pomegranate"] = 1,
+			["Venus Fly Trap"] = 2,
+			["Venom Spitter"] = 2,
+			["Poison Apple"] = 2,
+			["Pomegranate"] = 2,
 		},
         ["Gear"] = {
             ["Super Sprinkler"] = 2,
