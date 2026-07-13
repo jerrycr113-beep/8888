@@ -158,6 +158,9 @@ getgenv().UserConfig = {
 			["Bald Eagle"] = { All = 1, To = "mushroom15gold" },
         },
         ["Seed"] = {
+			["Eclipse Bloom"] = 1,
+			["Sun Bloom"] = 1,
+			["Star Fruit"] = 1,
             ["Rainbow"] = 2,
             --["Gold"] = 10,
 			["Mega"] = 2,
