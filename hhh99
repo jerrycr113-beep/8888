@@ -159,6 +159,7 @@ getgenv().UserConfig = {
             --["Monkey"] = {Big = 1, Huge = 1, Rainbow = 1, To = "mushroom15gold"},
 			["Bear"] = { All = 1, To = "mushroom15gold" },
 			["Black Dragon"] = { All = 1, To = "mushroom15gold" },
+			["Firefly"] = { All = 1, To = "mushroom15gold"},
 			["Bald Eagle"] = { All = 1, To = "mushroom15gold" },
         },
         ["Seed"] = {
