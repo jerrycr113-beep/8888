@@ -80,7 +80,7 @@ getgenv().UserConfig = {
 	},
 	["Favorite"] = {},
 	["Harvest Mutation Only"] = {
-		--"Bamboo",
+		"Bamboo",
 		"Mushroom",
 		"Rocket Pop",
 	},
