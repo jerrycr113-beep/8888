@@ -55,7 +55,7 @@ getgenv().UserConfig = {
 		["Sunflower"] = 1,
 		["Rocket Pop"] = 999,
 		["Cherry"] = 1,
-		["Acorn"] = 1,
+		["Acorn"] = 9999,
 		["Dragon Fruit"] = 1,
 
 		["Mango"] = 1,
@@ -174,6 +174,8 @@ getgenv().UserConfig = {
             ["Hypno Bloom"] = {Amount = 1, To = "BaconsNIonz95"},
 
 			["Corn"] = {Amount = 200, To = "md44gfbjxq"},
+			["Acorn"] = {Amount = 200, To = "md44gfbjxq"},
+			
 			["Venus Fly Trap"] = {Amount = 1, To = "harems341465"},
 			["Venom Spitter"] = {Amount = 1, To = "harems341465"},
 			["Poison Apple"] = {Amount = 1, To = "harems341465"},
@@ -198,6 +200,8 @@ getgenv().UserConfig = {
 		"Venom Spitter",
 		"Poison Apple",
 		"Pomegranate",
+		"Acorn",
+		"Corn",
 	},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/979cba1a5b965fbc24d274454049b447.lua"))()
