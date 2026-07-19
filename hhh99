@@ -68,7 +68,7 @@ getgenv().UserConfig = {
 		["Bamboo"] = 999,
 		["Pineapple"] = 1,
 		["Cactus"] = 1,
-		["Corn"] = 1,
+		["Corn"] = 9999,
 
 		["Apple"] = 1,
 		["Tomato"] = 1,
@@ -173,6 +173,7 @@ getgenv().UserConfig = {
             ["Moon Bloom"] = {Amount = 1, To = "BaconsNIonz95"},
             ["Hypno Bloom"] = {Amount = 1, To = "BaconsNIonz95"},
 
+			["Corn"] = {Amount = 200, To = "md44gfbjxq"},
 			["Venus Fly Trap"] = {Amount = 1, To = "harems341465"},
 			["Venom Spitter"] = {Amount = 1, To = "harems341465"},
 			["Poison Apple"] = {Amount = 1, To = "harems341465"},
