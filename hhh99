@@ -145,7 +145,7 @@ getgenv().UserConfig = {
     ["Webhook Gear Name"] = {"Super Sprinkler", "Super Watering Can"},
     ["Webhook Note"] = "gag2",
     ["Discord ID"] = "",
-    ["Mail To Username"] = {"BaconsNIonz95", "mushroom15gold","harems341465"},
+    ["Mail To Username"] = {"BaconsNIonz95", "mushroom15gold","md44gfbjxq"},
     ["Items To Mail"] = {
         ["Pet"] = {
             --["GoldenDragonfly"] = { All = 1, To = "mushroom15gold"},
@@ -163,8 +163,8 @@ getgenv().UserConfig = {
 			["Bald Eagle"] = { All = 1, To = "mushroom15gold" },
         },
         ["Seed"] = {
-			["Mega"] = {Amount = 2, To = {"BaconsNIonz95", "harems341465"}},
-			["Rainbow"] = {Amount = 2, To = {"BaconsNIonz95", "harems341465"}},
+			["Mega"] = {Amount = 2, To = "BaconsNIonz95"},
+			["Rainbow"] = {Amount = 2, To = "BaconsNIonz95"},
 
 			["Eclipse Bloom"] = {Amount = 1, To = "BaconsNIonz95"},
 			["Sun Bloom"] = {Amount = 1, To = "BaconsNIonz95"},
@@ -176,10 +176,10 @@ getgenv().UserConfig = {
 			["Corn"] = {Amount = 200, To = "md44gfbjxq"},
 			["Acorn"] = {Amount = 200, To = "md44gfbjxq"},
 			
-			["Venus Fly Trap"] = {Amount = 1, To = "harems341465"},
-			["Venom Spitter"] = {Amount = 1, To = "harems341465"},
-			["Poison Apple"] = {Amount = 1, To = "harems341465"},
-			["Pomegranate"] = {Amount = 1, To = "harems341465"},
+			["Venus Fly Trap"] = {Amount = 1, To = "md44gfbjxq"},
+			["Venom Spitter"] = {Amount = 1, To = "md44gfbjxq"},
+			["Poison Apple"] = {Amount = 1, To = "md44gfbjxq"},
+			["Pomegranate"] = {Amount = 1, To = "md44gfbjxq"},
 		},
         ["Gear"] = {
             ["Super Sprinkler"] = {Amount = 2, To = "mushroom15gold"},
