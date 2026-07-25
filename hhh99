@@ -56,7 +56,7 @@ getgenv().UserConfig = {
 		["Sunflower"] = 1,
 		["Rocket Pop"] = 999,
 		["Cherry"] = 1,
-		["Acorn"] = 9999,
+		["Acorn"] = 1,
 		["Dragon Fruit"] = 1,
 
 		["Mango"] = 1,
@@ -69,7 +69,7 @@ getgenv().UserConfig = {
 		["Bamboo"] = 999,
 		["Pineapple"] = 1,
 		["Cactus"] = 1,
-		["Corn"] = 9999,
+		["Corn"] =1,
 
 		["Apple"] = 1,
 		["Tomato"] = 1,
@@ -199,8 +199,6 @@ getgenv().UserConfig = {
 		"Venom Spitter",
 		"Poison Apple",
 		"Pomegranate",
-		"Acorn",
-		"Corn",
 	},
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/2df5fc5e0dcd634a4405a4740eab1890.lua"))()
