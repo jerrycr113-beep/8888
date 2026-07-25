@@ -20,6 +20,7 @@ getgenv().UserConfig = {
 	["Shovel Plant Once"] = {},
 	["Limit Plant Seed"] = {
 		["Gold"] = 999,
+		["Rainbow"] = 999,
 
 		["Rocket Pop"] = 999,
 		["Fire Fern"] = 50,
@@ -164,7 +165,6 @@ getgenv().UserConfig = {
         },
         ["Seed"] = {
 			["Mega"] = {Amount = 2, To = "BaconsNIonz95"},
-			["Rainbow"] = {Amount = 2, To = "BaconsNIonz95"},
 
 			["Eclipse Bloom"] = {Amount = 1, To = "BaconsNIonz95"},
 			["Sun Bloom"] = {Amount = 1, To = "BaconsNIonz95"},
