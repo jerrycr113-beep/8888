@@ -133,7 +133,6 @@ getgenv().UserConfig = {
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
 	["Webhook Seed URL"] = "https://discord.com/api/webhooks/1245486691553247293/HljlWDWOzLgz0LLUO4-Ar8_4bxpi07LTbMW9Fq7rnxlBENeQWpnG7F7nxEDu_8KfxakF",
     ["Webhook Seed Name"] = {
-		"Rainbow",
 		"Mega",
 		"Eclipse Bloom",
 		"Sun Bloom",
