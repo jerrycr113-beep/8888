@@ -21,6 +21,7 @@ getgenv().UserConfig = {
 	["Limit Plant Seed"] = {
 		["Gold"] = 999,
 		["Rainbow"] = 999,
+		["Mega"] = 999,
 
 		["Rocket Pop"] = 999,
 		["Fire Fern"] = 50,
@@ -163,7 +164,6 @@ getgenv().UserConfig = {
 			["Bald Eagle"] = { All = 1, To = "mushroom15gold" },
         },
         ["Seed"] = {
-			["Mega"] = {Amount = 2, To = "BaconsNIonz95"},
 
 			["Eclipse Bloom"] = {Amount = 1, To = "BaconsNIonz95"},
 			["Sun Bloom"] = {Amount = 1, To = "BaconsNIonz95"},
@@ -171,9 +171,6 @@ getgenv().UserConfig = {
             ["Dragon's Breath"] = {Amount = 1, To = "BaconsNIonz95"},
             ["Moon Bloom"] = {Amount = 1, To = "BaconsNIonz95"},
             ["Hypno Bloom"] = {Amount = 1, To = "BaconsNIonz95"},
-
-			["Corn"] = {Amount = 100, To = "md44gfbjxq"},
-			["Acorn"] = {Amount = 20, To = "md44gfbjxq"},
 			
 			["Venus Fly Trap"] = {Amount = 2, To = "md44gfbjxq"},
 			["Venom Spitter"] = {Amount = 2, To = "md44gfbjxq"},
